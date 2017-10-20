@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<link href="css/ship.css" rel="stylesheet" />
+	<body>
+		<div id="box">
+			<header>
+		         <img src="img/logo.png" />
+		          <div>
+		          	<span>纽罗科技</span>
+		          	<p>{{items[num].datea}}</p>
+		          </div>  
+			</header>
+			<iframe frameborder="0" width="640" height="498" v-bind:src="items[num].sr" allowfullscreen></iframe>
+			 <p class="title">{{items[num].disc}}</p>
+		</div>
+       
+	</body>
+	<script src="js/houtai.js"></script>
+	<script src="js/vue.min.js"></script>
+	<script src="js/axios.min.js"></script>
+     <script src="js/jq.js"></script>
+	<script src="js/shipin.js"></script>
+	<script src="js/index.js"></script>
+</html>

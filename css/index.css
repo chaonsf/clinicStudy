@@ -1,0 +1,134 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+img{
+	border: 0;
+	vertical-align: bottom;
+}
+/*以上是公共样式*/
+.biaoti{
+	height: 60px;
+	background: #ccc;
+}
+.biaoti div{
+	text-align: center;
+	line-height: 60px;
+}
+.biaoti .bb{
+	color: blueviolet;
+}
+.twob{
+	height:30px;
+}
+.twob .row{
+	text-align: center;
+	line-height: 30px;
+	display: none;
+	
+}
+.twob .aa{
+	display: block;
+}
+.col-md-1-5 {
+
+width: 20%;
+
+float: left;
+
+}
+
+.col-xs-1-5,.col-sm-1-5,.col-md-1-5,.col-lg-1-5 {
+
+min-height: 1px;
+
+padding-left: 15px;
+
+padding-right: 15px;
+
+position: relative;
+
+}
+@media (min-width: 768px) {
+
+.col-sm-1-5 {
+
+width: 20%;
+
+float: left;
+
+}
+
+}
+
+@media (min-width: 992px) {
+
+.col-md-1-5 {
+
+width: 20%;
+
+float: left;
+
+}
+
+}
+
+@media (min-width: 1200px) {
+
+.col-lg-1-5 {
+
+width: 20%;
+
+float: left;
+
+}
+
+
+
+}
+
+dl dt img{
+			height: 50px;
+			width: 55px;
+			
+		}
+		ul li{
+			height: 60px;
+			width: 100%;
+			border-bottom: 1px solid #ccc;
+			padding-top: 5px;
+		}
+		dl{
+		  height: 60px;
+		}
+		dl dt{
+			float: left;
+			width:60px;
+			overflow: hidden;
+		}
+		dl dd{
+			font-size: 12px;
+			float: left;
+			margin-top: 20px;
+			margin-left:10px;
+			font-weight:600;
+		
+		}
+		
+.xuanxiangka .row div ul{
+	display: none;
+}
+.xuanxiangka .row div .xianshi{
+	display: block;
+	
+}
+.twob .row .yui{
+	color:blueviolet;
+}
