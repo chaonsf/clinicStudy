@@ -5,14 +5,15 @@ $(".biaoti div").on("click",function(){
 	$(".twob .row").eq(num).addClass("aa").siblings().removeClass("aa");
 	if(num==0){
 		$(".xuanxiangka .row div ul").eq(0).show().siblings().hide();
-		
+		$(".twob .aa div").eq(0).addClass("yui").siblings().removeClass("yui");
 	}
 	if(num==1){
 		$(".xuanxiangka .row div ul").eq(5).show().siblings().hide();
-		
+		$(".twob .aa div").eq(0).addClass("yui").siblings().removeClass("yui");
 	}
 	if(num==2){
 		$(".xuanxiangka .row div ul").eq(10).show().siblings().hide();
+		$(".twob .aa div").eq(0).addClass("yui").siblings().removeClass("yui");
 	}
 })
 
